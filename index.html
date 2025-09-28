@@ -4,28 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título do Site</title>
+    <title>Lucas Dev Portifólio</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Site Portifólio</h1>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li> <a href="#inicio">Início</a></li>
+            <li> <a href="#sobre">Sobre</a></li>
+            <li> <a href="#habilidades">Habilidades</a></li>
+            <li> <a href="#projetos">Projetos</a></li>
+            <li> <a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main id="#inicio" class="cabecalho">
         <div>
-            <nav>
-                <ul>
-                    <li><a href="Início"></a>Início</li>
-                    <li><a href="Sobre Mim"></a>Sobre Mim</li>
-                    <li><a href="Habilidades"></a>Habilidades</li>
-                    <li><a href="Projetos"></a>Projetos</li>
-                    <li><a href="Contato"></a>Contato</li>
-                </ul>
-            </nav>
+            <img src="img/imagem-01-site-portifolio.png" alt="imagem do Desenvolvedor" class="foto-perfil">
+            <h1>Lucas Pereira</h1>
+            <p>Desenvolvedor Front End</p>
         </div>
-    </header>
-    <main>
-        <section></section>
     </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo possimus velit sint animi tenetur
+                distinctio suscipit optio accusamus nostrum quis, iste, dolore voluptates odio repudiandae quibusdam
+                nihil eveniet quasi vero.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="img/imagem-teste-01.jpg" alt="imagem do projeto 1" class="projeto-imagem">
+                <h3 class="info-projetos">Projeto 1</h3>
+                <p class="paragrafos-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus
+                    pariatur doloribus dolorum! Voluptas harum, commodi in et alias voluptatum rem aperiam incidunt,
+                    nisi at illo mollitia sed, ipsam architecto!</p>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/imagem-teste-01.jpg" alt="imagem do projeto 2" class="projeto-imagem">
+                <h3 class="info-projetos">Projeto 2</h3>
+                <p class="paragrafos-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus
+                    pariatur doloribus dolorum! Voluptas harum, commodi in et alias voluptatum rem aperiam incidunt,
+                    nisi at illo mollitia sed, ipsam architecto!</p>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/imagem-teste-01.jpg" alt="imagem do projeto 3" class="projeto-imagem">
+                <h3 class="info-projetos">Projeto 3</h3>
+                <p class="paragrafos-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus
+                    pariatur doloribus dolorum! Voluptas harum, commodi in et alias voluptatum rem aperiam incidunt,
+                    nisi at illo mollitia sed, ipsam architecto!</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contato" class="contatos">
+
+        <h2 class="contato-titulo">Contatos</h2>
+
+        <form class="formulario-contato" id="formulalio">
+
+            <div class="nome-form">
+                <input placeholder="Nome" class="campo-form">
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="text-form" placeholder="Didite sua Mensagem"></textarea>
+            </div>
+
+        </form>
+    </section>
+
 </body>
 
 </html>
